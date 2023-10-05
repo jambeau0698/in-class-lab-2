@@ -12,3 +12,43 @@ h2{
     color: #fc9;
 
 }
+header{
+    background-color: hsla(36, 79%, 45%, 0.7);
+
+}
+main{
+    float : left; 
+    width : 65vw;
+    background-color: hsla(124, 50%, 46%, 0.7);
+    height: 60vh;
+}
+aside{
+    float : right;
+    width : 25vw;
+    background-color: hsla(314, 75%, 36%, 0.7);
+    height: 60vh;
+}
+footer{
+    clear : both;
+    background-color: hsla(253, 73%, 35%, 0.7);
+
+}
+.structural{
+    margin : 10px;
+    padding : 10px;
+    border: 2px solid black;
+
+}
+#para1{
+    color: rgb(28, 159, 74);
+}
+
+#para2{
+   color: rgb(56, 31, 150);
+}
+a:hover{
+    color: #f09;
+}
+footer p{
+    font-size : .75em;
+}
