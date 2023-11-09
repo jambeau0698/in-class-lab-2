@@ -89,3 +89,30 @@ nav ul li a:hover{
     background-color: indigo;
 
 }
+form{
+    border: 5px dashed darkblue;
+
+}
+input[type=text], input[type=email], input[type=submit], select, option{
+    display: block;
+    width: 50%;
+    height: 2em
+    
+}
+input[type=radio], input[type=checkbox]{
+    height:2em;
+    width:2em;
+}
+select,option,label,legend{
+    font-variant:small-caps;
+    font-weight:bold;
+    font-size:1.5em;
+
+}
+textarea{
+    width:50%;
+    display:block;
+}
+feildset{
+    border:none;
+}
