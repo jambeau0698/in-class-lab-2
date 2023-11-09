@@ -28,6 +28,19 @@ aside{
     background-color: hsla(314, 75%, 36%, 0.7);
     height: 60vh;
 }
+
+aside ul{
+    list-style-type: circle;
+}
+ aside li{
+    line-height: 1.5rem;
+    color: rgba(200, 90, 127, .5); 
+}
+ aside a:hover{ color: rgba(195, 25, 82, 0.5)}
+
+
+
+
 footer{
     clear : both;
     background-color: hsla(253, 73%, 35%, 0.7);
@@ -51,4 +64,28 @@ a:hover{
 }
 footer p{
     font-size : .75em;
+}
+
+h1{
+    color: green; font-size: 75px;
+}
+
+nav ul li{
+    display: inline;
+    list-style-type: none;
+
+}
+
+nav ul li a{
+    border: 2px solid indigo;
+    background-color: cornsilk;
+    text-decoration: none;
+    padding: 4 px;
+color: indigo;    
+}
+nav ul li a:hover{
+    border: 2 px solid cornsilk;
+    color:cornsilk;
+    background-color: indigo;
+
 }
